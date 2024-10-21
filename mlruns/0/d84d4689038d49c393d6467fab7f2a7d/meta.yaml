@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Desktop/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d84d4689038d49c393d6467fab7f2a7d/artifacts
+end_time: 1729482184404
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d84d4689038d49c393d6467fab7f2a7d
+run_name: able-fly-114
+run_uuid: d84d4689038d49c393d6467fab7f2a7d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729482161384
+status: 3
+tags: []
+user_id: johnlancaster

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Desktop/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f476cf53fe9d49d58a429ede1123b205/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f476cf53fe9d49d58a429ede1123b205
+run_name: clean-hound-208
+run_uuid: f476cf53fe9d49d58a429ede1123b205
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729474646236
+status: 1
+tags: []
+user_id: johnlancaster

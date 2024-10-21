@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Desktop/Project-Build-an-ML-Pipeline-Starter/mlruns/0/251edf3b114c460eab6be42fe6232308/artifacts
+end_time: 1729475480741
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 251edf3b114c460eab6be42fe6232308
+run_name: resilient-wren-903
+run_uuid: 251edf3b114c460eab6be42fe6232308
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729474998552
+status: 4
+tags: []
+user_id: johnlancaster

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Desktop/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2a31ccd82bae4ce1acee477dacf5cfb5/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2a31ccd82bae4ce1acee477dacf5cfb5
+run_name: skillful-sow-267
+run_uuid: 2a31ccd82bae4ce1acee477dacf5cfb5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728849865243
+status: 1
+tags: []
+user_id: johnlancaster

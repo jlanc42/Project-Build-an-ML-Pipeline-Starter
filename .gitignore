@@ -5,3 +5,7 @@ src/eda/.ipynb_checkpoints/
 src/eda/artifacts/
 src/eda/wandb/
 src/eda/Untitled.ipynb
+outputs/
+src/basic_cleaning/wandb/*.log
+src/basic_cleaning/wandb/run-*
+

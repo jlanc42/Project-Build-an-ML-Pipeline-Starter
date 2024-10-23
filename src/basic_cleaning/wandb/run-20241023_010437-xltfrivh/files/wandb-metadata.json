@@ -1,0 +1,58 @@
+{
+    "os": "macOS-11.7.10-x86_64-i386-64bit",
+    "python": "3.10.0",
+    "heartbeatAt": "2024-10-23T05:04:37.615127",
+    "startedAt": "2024-10-23T05:04:37.052911",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "sample.csv:latest",
+        "--output_artifact",
+        "clean_sample.csv",
+        "--output_type",
+        "clean_sample",
+        "--output_description",
+        "Data with outliers and null values removed",
+        "--min_price",
+        "10",
+        "--max_price",
+        "350"
+    ],
+    "state": "running",
+    "program": "/Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "src/basic_cleaning/run.py",
+    "git": {
+        "remote": "https://github.com/jlanc42/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "3a062197aed8b5ae994ce19953c48488960a7ab5"
+    },
+    "email": null,
+    "root": "/Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter",
+    "host": "Johns-MacBook-Air.local",
+    "username": "johnlancaster",
+    "executable": "/Users/johnlancaster/opt/anaconda3/envs/mlflow-29df02dfdfbc31d8c196f55adbe2722de90153a9/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 1400,
+        "min": 1400,
+        "max": 1400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1400,
+            "min": 1400,
+            "max": 1400
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 112.80464935302734,
+            "used": 14.275474548339844
+        }
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

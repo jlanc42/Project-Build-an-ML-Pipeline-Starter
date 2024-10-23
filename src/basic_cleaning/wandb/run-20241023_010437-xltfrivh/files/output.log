@@ -1,0 +1,22 @@
+2024-10-23 01:04:39,756 Fetching raw dataset.
+Traceback (most recent call last):
+  File "/Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/run.py", line 99, in <module>
+    go(args)
+  File "/Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/run.py", line 28, in go
+    df = pd.read_csv(local_path)
+  File "/Users/johnlancaster/opt/anaconda3/envs/mlflow-29df02dfdfbc31d8c196f55adbe2722de90153a9/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/johnlancaster/opt/anaconda3/envs/mlflow-29df02dfdfbc31d8c196f55adbe2722de90153a9/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/johnlancaster/opt/anaconda3/envs/mlflow-29df02dfdfbc31d8c196f55adbe2722de90153a9/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/johnlancaster/opt/anaconda3/envs/mlflow-29df02dfdfbc31d8c196f55adbe2722de90153a9/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1723, in _make_engine
+    return mapping[engine](f, **self.options)
+  File "/Users/johnlancaster/opt/anaconda3/envs/mlflow-29df02dfdfbc31d8c196f55adbe2722de90153a9/lib/python3.10/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "parsers.pyx", line 579, in pandas._libs.parsers.TextReader.__cinit__
+  File "parsers.pyx", line 668, in pandas._libs.parsers.TextReader._get_header
+  File "parsers.pyx", line 879, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "parsers.pyx", line 890, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "parsers.pyx", line 2050, in pandas._libs.parsers.raise_parser_error
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd3 in position 8: invalid continuation byte

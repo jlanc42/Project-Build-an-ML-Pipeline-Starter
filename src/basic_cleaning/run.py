@@ -25,7 +25,7 @@ def go(args):
     # particular version of the artifact
     logger.info('Fetching raw dataset.')
     local_path = wandb.use_artifact('sample.csv:latest').file()
-    df = pd.read_csv(local_path)
+    df = pd.read_csv(local_path, encoding='ISO-8859-1')
     
     # EDA with arguments passed into the step
     logger.info('Cleaning data.')

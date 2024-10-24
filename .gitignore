@@ -8,4 +8,7 @@ src/eda/Untitled.ipynb
 outputs/
 src/basic_cleaning/wandb/*.log
 src/basic_cleaning/wandb/run-*
+src/basic_cleaning/wandb/debug-internal.log
+src/basic_cleaning/wandb/debug.log
+src/basic_cleaning/wandb/latest-run
 

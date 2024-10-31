@@ -1,0 +1,44 @@
+{
+  "os": "macOS-11.7.10-x86_64-i386-64bit",
+  "python": "3.10.0",
+  "startedAt": "2024-10-31T02:28:17.280463Z",
+  "args": [
+    ".",
+    "-vv",
+    "--csv",
+    "clean_sample.csv:latest",
+    "--ref",
+    "clean_sample.csv:reference",
+    "--kl_threshold",
+    "0.2",
+    "--min_price",
+    "10",
+    "--max_price",
+    "350"
+  ],
+  "program": "/Users/johnlancaster/opt/anaconda3/envs/mlflow-a776f50372d819d7ec1a8e793823cf38b475fe81/bin/pytest",
+  "git": {
+    "remote": "https://github.com/jlanc42/Project-Build-an-ML-Pipeline-Starter.git",
+    "commit": "4033255de703a7858ef2ad9f8514b45ea5f24d14"
+  },
+  "email": "john.lanc@yahoo.com",
+  "root": "/Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/src/data_check",
+  "host": "Johns-MacBook-Air.local",
+  "username": "johnlancaster",
+  "executable": "/Users/johnlancaster/opt/anaconda3/envs/mlflow-a776f50372d819d7ec1a8e793823cf38b475fe81/bin/python3.10",
+  "cpu_count": 2,
+  "cpu_count_logical": 4,
+  "disk": {
+    "/": {
+      "total": "121123069952",
+      "used": "15328174080"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "cpu": {
+    "count": 2,
+    "countLogical": 4
+  }
+}

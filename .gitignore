@@ -12,3 +12,4 @@ src/basic_cleaning/wandb/debug-internal.log
 src/basic_cleaning/wandb/debug.log
 src/basic_cleaning/wandb/latest-run
 
+multirun/

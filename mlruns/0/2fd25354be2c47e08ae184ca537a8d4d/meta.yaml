@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2fd25354be2c47e08ae184ca537a8d4d/artifacts
+end_time: 1730417659421
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2fd25354be2c47e08ae184ca537a8d4d
+run_name: redolent-loon-528
+run_uuid: 2fd25354be2c47e08ae184ca537a8d4d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730417654212
+status: 4
+tags: []
+user_id: johnlancaster

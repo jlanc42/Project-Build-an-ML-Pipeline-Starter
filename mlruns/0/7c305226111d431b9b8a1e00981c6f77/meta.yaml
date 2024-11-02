@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7c305226111d431b9b8a1e00981c6f77/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c305226111d431b9b8a1e00981c6f77
+run_name: peaceful-sponge-998
+run_uuid: 7c305226111d431b9b8a1e00981c6f77
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730338477689
+status: 1
+tags: []
+user_id: johnlancaster

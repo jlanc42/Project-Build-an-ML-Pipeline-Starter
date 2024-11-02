@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d99c1f1b5d484d858311a252bbd66080/artifacts
+end_time: 1730417288883
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d99c1f1b5d484d858311a252bbd66080
+run_name: aged-fox-834
+run_uuid: d99c1f1b5d484d858311a252bbd66080
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730417283733
+status: 4
+tags: []
+user_id: johnlancaster

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a9d1ce3509fb44d1978bed9532b253e7/artifacts
+end_time: 1730508808004
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a9d1ce3509fb44d1978bed9532b253e7
+run_name: spiffy-dove-970
+run_uuid: a9d1ce3509fb44d1978bed9532b253e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730508803422
+status: 4
+tags: []
+user_id: johnlancaster

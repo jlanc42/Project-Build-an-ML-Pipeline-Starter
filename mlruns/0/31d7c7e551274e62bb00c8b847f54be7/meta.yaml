@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/31d7c7e551274e62bb00c8b847f54be7/artifacts
+end_time: 1729677547797
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 31d7c7e551274e62bb00c8b847f54be7
+run_name: receptive-fowl-679
+run_uuid: 31d7c7e551274e62bb00c8b847f54be7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729677519689
+status: 4
+tags: []
+user_id: johnlancaster

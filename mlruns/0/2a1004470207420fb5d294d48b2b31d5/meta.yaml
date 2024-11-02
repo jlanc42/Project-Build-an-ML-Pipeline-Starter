@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2a1004470207420fb5d294d48b2b31d5/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2a1004470207420fb5d294d48b2b31d5
+run_name: powerful-swan-390
+run_uuid: 2a1004470207420fb5d294d48b2b31d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730322495488
+status: 1
+tags: []
+user_id: johnlancaster

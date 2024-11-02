@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1f14e54f48184f5aad48b32692d1a549/artifacts
+end_time: 1730508816888
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1f14e54f48184f5aad48b32692d1a549
+run_name: indecisive-dove-226
+run_uuid: 1f14e54f48184f5aad48b32692d1a549
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730508786418
+status: 4
+tags: []
+user_id: johnlancaster

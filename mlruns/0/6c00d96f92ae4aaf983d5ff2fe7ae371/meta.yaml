@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6c00d96f92ae4aaf983d5ff2fe7ae371/artifacts
+end_time: 1729677547300
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6c00d96f92ae4aaf983d5ff2fe7ae371
+run_name: fearless-boar-748
+run_uuid: 6c00d96f92ae4aaf983d5ff2fe7ae371
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729677529718
+status: 4
+tags: []
+user_id: johnlancaster

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1a2fe368fb88414b84dc31ceb2e7c45b/artifacts
+end_time: 1729741368010
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1a2fe368fb88414b84dc31ceb2e7c45b
+run_name: rumbling-colt-754
+run_uuid: 1a2fe368fb88414b84dc31ceb2e7c45b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729741339600
+status: 4
+tags: []
+user_id: johnlancaster

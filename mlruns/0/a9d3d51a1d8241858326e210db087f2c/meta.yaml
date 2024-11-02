@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a9d3d51a1d8241858326e210db087f2c/artifacts
+end_time: 1729877885273
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a9d3d51a1d8241858326e210db087f2c
+run_name: fun-snake-340
+run_uuid: a9d3d51a1d8241858326e210db087f2c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729877849055
+status: 4
+tags: []
+user_id: johnlancaster

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/46ed95233ef34fa486d7887f107b56ae/artifacts
+end_time: 1730415812723
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 46ed95233ef34fa486d7887f107b56ae
+run_name: righteous-snake-942
+run_uuid: 46ed95233ef34fa486d7887f107b56ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730415507768
+status: 3
+tags: []
+user_id: johnlancaster

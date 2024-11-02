@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2fc644b8a9674e06a6998c7d63c26c5c/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2fc644b8a9674e06a6998c7d63c26c5c
+run_name: burly-whale-636
+run_uuid: 2fc644b8a9674e06a6998c7d63c26c5c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730322139164
+status: 1
+tags: []
+user_id: johnlancaster

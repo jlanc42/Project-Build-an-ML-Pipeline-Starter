@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c55a96786db449258a58d27fcb63757d/artifacts
+end_time: 1730420084076
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c55a96786db449258a58d27fcb63757d
+run_name: aged-carp-902
+run_uuid: c55a96786db449258a58d27fcb63757d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730420055311
+status: 4
+tags: []
+user_id: johnlancaster

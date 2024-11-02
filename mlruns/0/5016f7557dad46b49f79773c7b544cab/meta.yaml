@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5016f7557dad46b49f79773c7b544cab/artifacts
+end_time: 1729676489052
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5016f7557dad46b49f79773c7b544cab
+run_name: caring-owl-419
+run_uuid: 5016f7557dad46b49f79773c7b544cab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729676467290
+status: 4
+tags: []
+user_id: johnlancaster

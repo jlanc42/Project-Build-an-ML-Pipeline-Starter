@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fbe547a4c07444d190aa9d3f3744edb5/artifacts
+end_time: 1730420670793
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fbe547a4c07444d190aa9d3f3744edb5
+run_name: worried-perch-56
+run_uuid: fbe547a4c07444d190aa9d3f3744edb5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730420656725
+status: 4
+tags: []
+user_id: johnlancaster

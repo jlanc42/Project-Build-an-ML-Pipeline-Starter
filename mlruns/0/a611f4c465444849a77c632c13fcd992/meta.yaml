@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a611f4c465444849a77c632c13fcd992/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a611f4c465444849a77c632c13fcd992
+run_name: debonair-koi-548
+run_uuid: a611f4c465444849a77c632c13fcd992
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730337865768
+status: 1
+tags: []
+user_id: johnlancaster

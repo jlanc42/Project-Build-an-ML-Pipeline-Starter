@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5c9143b02048474d9b22e301e8193b3f/artifacts
+end_time: 1730337982452
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5c9143b02048474d9b22e301e8193b3f
+run_name: rogue-moth-158
+run_uuid: 5c9143b02048474d9b22e301e8193b3f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730337855086
+status: 4
+tags: []
+user_id: johnlancaster

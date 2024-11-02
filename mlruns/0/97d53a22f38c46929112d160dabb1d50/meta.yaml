@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/97d53a22f38c46929112d160dabb1d50/artifacts
+end_time: 1730422893972
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 97d53a22f38c46929112d160dabb1d50
+run_name: amazing-lynx-298
+run_uuid: 97d53a22f38c46929112d160dabb1d50
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730422888658
+status: 4
+tags: []
+user_id: johnlancaster

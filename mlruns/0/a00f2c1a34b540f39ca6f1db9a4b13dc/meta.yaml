@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a00f2c1a34b540f39ca6f1db9a4b13dc/artifacts
+end_time: 1729659888646
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a00f2c1a34b540f39ca6f1db9a4b13dc
+run_name: luminous-fowl-155
+run_uuid: a00f2c1a34b540f39ca6f1db9a4b13dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729659302961
+status: 4
+tags: []
+user_id: johnlancaster

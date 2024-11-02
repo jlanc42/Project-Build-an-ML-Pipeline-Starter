@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e32456f27c2e4ef8bb0b435b4d917332/artifacts
+end_time: 1730341701999
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e32456f27c2e4ef8bb0b435b4d917332
+run_name: selective-bear-776
+run_uuid: e32456f27c2e4ef8bb0b435b4d917332
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730341399859
+status: 3
+tags: []
+user_id: johnlancaster

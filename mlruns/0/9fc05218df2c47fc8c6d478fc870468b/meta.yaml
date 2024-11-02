@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9fc05218df2c47fc8c6d478fc870468b/artifacts
+end_time: 1730481548221
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9fc05218df2c47fc8c6d478fc870468b
+run_name: enthused-shrike-707
+run_uuid: 9fc05218df2c47fc8c6d478fc870468b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730481544382
+status: 4
+tags: []
+user_id: johnlancaster

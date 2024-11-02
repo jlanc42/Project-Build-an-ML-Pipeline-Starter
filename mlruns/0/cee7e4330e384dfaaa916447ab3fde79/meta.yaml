@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cee7e4330e384dfaaa916447ab3fde79/artifacts
+end_time: 1730323746054
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cee7e4330e384dfaaa916447ab3fde79
+run_name: respected-horse-301
+run_uuid: cee7e4330e384dfaaa916447ab3fde79
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730323705374
+status: 3
+tags: []
+user_id: johnlancaster

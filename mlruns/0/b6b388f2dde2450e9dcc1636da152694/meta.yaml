@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b6b388f2dde2450e9dcc1636da152694/artifacts
+end_time: 1730420075484
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b6b388f2dde2450e9dcc1636da152694
+run_name: debonair-stork-734
+run_uuid: b6b388f2dde2450e9dcc1636da152694
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730420071370
+status: 4
+tags: []
+user_id: johnlancaster

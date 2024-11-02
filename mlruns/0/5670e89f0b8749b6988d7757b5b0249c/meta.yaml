@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5670e89f0b8749b6988d7757b5b0249c/artifacts
+end_time: 1730422914147
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5670e89f0b8749b6988d7757b5b0249c
+run_name: delightful-crane-333
+run_uuid: 5670e89f0b8749b6988d7757b5b0249c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730422874517
+status: 4
+tags: []
+user_id: johnlancaster

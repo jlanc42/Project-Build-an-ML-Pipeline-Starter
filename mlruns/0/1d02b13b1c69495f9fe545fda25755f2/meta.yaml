@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1d02b13b1c69495f9fe545fda25755f2/artifacts
+end_time: 1730420079499
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1d02b13b1c69495f9fe545fda25755f2
+run_name: delightful-snake-927
+run_uuid: 1d02b13b1c69495f9fe545fda25755f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730420075754
+status: 4
+tags: []
+user_id: johnlancaster

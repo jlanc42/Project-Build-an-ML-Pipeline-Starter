@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/892ea9553b29488cac9979387e10fe97/artifacts
+end_time: 1730323746557
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 892ea9553b29488cac9979387e10fe97
+run_name: bustling-goose-844
+run_uuid: 892ea9553b29488cac9979387e10fe97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730323696203
+status: 3
+tags: []
+user_id: johnlancaster

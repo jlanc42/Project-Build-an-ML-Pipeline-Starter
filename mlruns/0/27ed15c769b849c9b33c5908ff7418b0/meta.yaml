@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/27ed15c769b849c9b33c5908ff7418b0/artifacts
+end_time: 1730422898321
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 27ed15c769b849c9b33c5908ff7418b0
+run_name: mercurial-sponge-322
+run_uuid: 27ed15c769b849c9b33c5908ff7418b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730422894232
+status: 4
+tags: []
+user_id: johnlancaster

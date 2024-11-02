@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b0ca765f33ed4674be3c5cc67468e4bc/artifacts
+end_time: 1730421450239
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b0ca765f33ed4674be3c5cc67468e4bc
+run_name: wise-shrimp-94
+run_uuid: b0ca765f33ed4674be3c5cc67468e4bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730421434261
+status: 4
+tags: []
+user_id: johnlancaster

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e858aaa789744ed3a210fb64e7423651/artifacts
+end_time: 1730322756287
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e858aaa789744ed3a210fb64e7423651
+run_name: mercurial-quail-818
+run_uuid: e858aaa789744ed3a210fb64e7423651
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730322479750
+status: 4
+tags: []
+user_id: johnlancaster

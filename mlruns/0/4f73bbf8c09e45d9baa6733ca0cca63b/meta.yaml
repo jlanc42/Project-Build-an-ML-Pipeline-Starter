@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4f73bbf8c09e45d9baa6733ca0cca63b/artifacts
+end_time: 1729675146614
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4f73bbf8c09e45d9baa6733ca0cca63b
+run_name: valuable-roo-846
+run_uuid: 4f73bbf8c09e45d9baa6733ca0cca63b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729675101954
+status: 4
+tags: []
+user_id: johnlancaster

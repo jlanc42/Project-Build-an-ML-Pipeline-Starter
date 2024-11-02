@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/896b37d06094444592b9e7bb1e2f5e6b/artifacts
+end_time: 1730421424723
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 896b37d06094444592b9e7bb1e2f5e6b
+run_name: serious-dolphin-821
+run_uuid: 896b37d06094444592b9e7bb1e2f5e6b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730421348902
+status: 3
+tags: []
+user_id: johnlancaster

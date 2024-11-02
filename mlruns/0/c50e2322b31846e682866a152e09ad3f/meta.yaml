@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c50e2322b31846e682866a152e09ad3f/artifacts
+end_time: 1730481552053
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c50e2322b31846e682866a152e09ad3f
+run_name: awesome-goat-988
+run_uuid: c50e2322b31846e682866a152e09ad3f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730481548481
+status: 4
+tags: []
+user_id: johnlancaster

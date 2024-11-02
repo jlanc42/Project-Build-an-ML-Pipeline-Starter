@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/070cc240ebd14554a41f2a9623297891/artifacts
+end_time: 1730421424270
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 070cc240ebd14554a41f2a9623297891
+run_name: unruly-foal-206
+run_uuid: 070cc240ebd14554a41f2a9623297891
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730421363743
+status: 3
+tags: []
+user_id: johnlancaster

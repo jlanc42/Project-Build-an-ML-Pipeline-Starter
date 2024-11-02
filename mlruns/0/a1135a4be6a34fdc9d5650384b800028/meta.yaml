@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a1135a4be6a34fdc9d5650384b800028/artifacts
+end_time: 1730420083553
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a1135a4be6a34fdc9d5650384b800028
+run_name: stately-trout-98
+run_uuid: a1135a4be6a34fdc9d5650384b800028
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730420079792
+status: 4
+tags: []
+user_id: johnlancaster

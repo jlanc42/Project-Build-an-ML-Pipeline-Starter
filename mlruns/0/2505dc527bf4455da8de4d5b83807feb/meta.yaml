@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2505dc527bf4455da8de4d5b83807feb/artifacts
+end_time: 1729659887824
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2505dc527bf4455da8de4d5b83807feb
+run_name: suave-fowl-4
+run_uuid: 2505dc527bf4455da8de4d5b83807feb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729659701536
+status: 4
+tags: []
+user_id: johnlancaster

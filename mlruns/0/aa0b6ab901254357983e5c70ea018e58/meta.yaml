@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/aa0b6ab901254357983e5c70ea018e58/artifacts
+end_time: 1730417663888
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aa0b6ab901254357983e5c70ea018e58
+run_name: sedate-bird-166
+run_uuid: aa0b6ab901254357983e5c70ea018e58
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730417659710
+status: 4
+tags: []
+user_id: johnlancaster

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a70f00f2dde54353a9a110a9dafe274a/artifacts
+end_time: 1730417648624
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a70f00f2dde54353a9a110a9dafe274a
+run_name: hilarious-newt-438
+run_uuid: a70f00f2dde54353a9a110a9dafe274a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730417639096
+status: 4
+tags: []
+user_id: johnlancaster

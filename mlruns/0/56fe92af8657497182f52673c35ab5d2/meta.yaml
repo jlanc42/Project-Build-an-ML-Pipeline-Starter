@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/56fe92af8657497182f52673c35ab5d2/artifacts
+end_time: 1729741367528
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 56fe92af8657497182f52673c35ab5d2
+run_name: chill-sponge-794
+run_uuid: 56fe92af8657497182f52673c35ab5d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729741348990
+status: 4
+tags: []
+user_id: johnlancaster

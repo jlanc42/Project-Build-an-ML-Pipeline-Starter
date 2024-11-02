@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/22a97834a11c4549ba7c8897d03e8823/artifacts
+end_time: 1730415813207
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 22a97834a11c4549ba7c8897d03e8823
+run_name: placid-cat-219
+run_uuid: 22a97834a11c4549ba7c8897d03e8823
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730415495210
+status: 3
+tags: []
+user_id: johnlancaster

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/mlruns/0/917c80180a5147b69dd18aeb51c6a631/artifacts
+end_time: 1730417295467
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 917c80180a5147b69dd18aeb51c6a631
+run_name: able-moose-326
+run_uuid: 917c80180a5147b69dd18aeb51c6a631
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730417205428
+status: 4
+tags: []
+user_id: johnlancaster

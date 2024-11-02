@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 
 import mlflow
 import json
+
 import pandas as pd
 import numpy as np
 from sklearn.compose import ColumnTransformer
@@ -17,6 +18,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.impute import SimpleImputer
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OrdinalEncoder, FunctionTransformer
+
 import wandb
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
@@ -62,34 +64,46 @@ def go(args):
     sk_pipe, processed_features = get_inference_pipeline(rf_config, args.max_tfidf_features)
 
     # Then fit it to the X_train, y_train data
-    logger.info("Fitting the model to the training data")
-    sk_pipe.fit(X_train, y_train)
+    logger.info("Fitting")
 
-    # Compute R^2 and MAE for validation set
-    logger.info("Scoring the model on the validation data")
+    ######################################
+    # Fit the pipeline sk_pipe by calling the .fit method on X_train and y_train
+    sk_pipe.fit(X_train, y_train)
+    ######################################
+
+    # Compute r2 and MAE
+    logger.info("Scoring")
     r_squared = sk_pipe.score(X_val, y_val)
+
     y_pred = sk_pipe.predict(X_val)
     mae = mean_absolute_error(y_val, y_pred)
 
-    logger.info(f"Validation R^2: {r_squared}")
-    logger.info(f"Validation MAE: {mae}")
+    logger.info(f"Score: {r_squared}")
+    logger.info(f"MAE: {mae}")
 
-    # Prepare to save the trained model
+    logger.info("Exporting model")
+
+    # Save model package in the MLFlow sklearn format
     if os.path.exists("random_forest_dir"):
         shutil.rmtree("random_forest_dir")
 
-    logger.info("Saving the model")
+    ######################################
+    # Save the sk_pipe pipeline as a mlflow.sklearn model in the directory "random_forest_dir"
+    # HINT: use mlflow.sklearn.save_model
+    #signature = mlflow.models.infer_signature(X_val, y_pred)
     mlflow.sklearn.save_model(
         sk_pipe,
         path="random_forest_dir",
+        #signature=signature,
         input_example=X_train.iloc[:5]
     )
+    ######################################
 
-    # Log the saved model as an artifact in W&B
+    # Upload the model we just exported to W&B
     artifact = wandb.Artifact(
         args.output_artifact,
         type="model_export",
-        description="Trained Random Forest model",
+        description="Trained random forest artifact",
         metadata=rf_config
     )
     artifact.add_dir("random_forest_dir")
@@ -98,35 +112,49 @@ def go(args):
     # Plot feature importance
     fig_feat_imp = plot_feature_importance(sk_pipe, processed_features)
 
-    # Log metrics and feature importance plot to W&B
+    ######################################
+    # Here we save variable r_squared under the "r2" key
     run.summary['r2'] = r_squared
+    # Now save the variable mae under the key "mae".
     run.summary['mae'] = mae
-    run.log({"feature_importance": wandb.Image(fig_feat_imp)})
+    ######################################
+
+    # Upload to W&B the feature importance visualization
+    run.log(
+        {
+          "feature_importance": wandb.Image(fig_feat_imp),
+        }
+    )
 
 
 def plot_feature_importance(pipe, feat_names):
-    # Extract feature importances and combine TFIDF importance into one feature
     feat_imp = pipe["random_forest"].feature_importances_[: len(feat_names)-1]
     nlp_importance = sum(pipe["random_forest"].feature_importances_[len(feat_names) - 1:])
     feat_imp = np.append(feat_imp, nlp_importance)
     fig_feat_imp, sub_feat_imp = plt.subplots(figsize=(10, 10))
     sub_feat_imp.bar(range(feat_imp.shape[0]), feat_imp, align="center")
-    sub_feat_imp.set_xticks(range(feat_imp.shape[0]))
-    sub_feat_imp.set_xticklabels(np.array(feat_names), rotation=90)
+    _ = sub_feat_imp.set_xticks(range(feat_imp.shape[0]))
+    _ = sub_feat_imp.set_xticklabels(np.array(feat_names), rotation=90)
     fig_feat_imp.tight_layout()
     return fig_feat_imp
 
 
 def get_inference_pipeline(rf_config, max_tfidf_features):
-    # Define categorical and numerical preprocessing steps
     ordinal_categorical = ["room_type"]
     non_ordinal_categorical = ["neighbourhood_group"]
     ordinal_categorical_preproc = OrdinalEncoder()
 
+    ######################################
+    # Build a pipeline with two steps:
+    # 1 - A SimpleImputer(strategy="most_frequent") to impute missing values
+    # 2 - A OneHotEncoder() step to encode the variable
+    from sklearn.pipeline import make_pipeline
+    from sklearn.preprocessing import OneHotEncoder
     non_ordinal_categorical_preproc = make_pipeline(
         SimpleImputer(strategy="most_frequent"),
         OneHotEncoder()
     )
+    ######################################
 
     zero_imputed = [
         "minimum_nights",
@@ -155,7 +183,6 @@ def get_inference_pipeline(rf_config, max_tfidf_features):
         ),
     )
 
-    # Combine all preprocessing steps
     preprocessor = ColumnTransformer(
         transformers=[
             ("ordinal_cat", ordinal_categorical_preproc, ordinal_categorical),
@@ -169,29 +196,76 @@ def get_inference_pipeline(rf_config, max_tfidf_features):
 
     processed_features = ordinal_categorical + non_ordinal_categorical + zero_imputed + ["last_review", "name"]
 
-    # Construct the pipeline with preprocessing and the Random Forest model
     random_forest = RandomForestRegressor(**rf_config)
+
+    ######################################
+    # Create the inference pipeline. The pipeline must have 2 steps: 
+    # 1 - a step called "preprocessor" applying the ColumnTransformer instance that we saved in the `preprocessor` variable
+    # 2 - a step called "random_forest" with the random forest instance that we just saved in the `random_forest` variable.
     sk_pipe = Pipeline(
         steps=[
             ("preprocessor", preprocessor),
             ("random_forest", random_forest)
         ]
     )
+    ######################################
 
     return sk_pipe, processed_features
 
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description="Training Random Forest for Airbnb Data")
+    parser = argparse.ArgumentParser(description="Basic cleaning of dataset")
 
-    parser.add_argument("--trainval_artifact", type=str, required=True, help="Training dataset artifact name")
-    parser.add_argument("--val_size", type=float, required=True, help="Validation set size")
-    parser.add_argument("--random_seed", type=int, default=42, help="Random seed for reproducibility")
-    parser.add_argument("--stratify_by", type=str, help="Column for stratification", default="none")
-    parser.add_argument("--rf_config", type=str, required=True, help="Random Forest config JSON path")
-    parser.add_argument("--max_tfidf_features", type=int, default=10, help="Max features for TFIDF")
-    parser.add_argument("--output_artifact", type=str, required=True, help="Output model artifact name")
+    parser.add_argument(
+        "--trainval_artifact",
+        type=str,
+        help="Artifact containing the training dataset. It will be split into train and validation"
+    )
+
+    parser.add_argument(
+        "--val_size",
+        type=float,
+        help="Size of the validation split. Fraction of the dataset, or number of items",
+    )
+
+    parser.add_argument(
+        "--random_seed",
+        type=int,
+        help="Seed for random number generator",
+        default=42,
+        required=False,
+    )
+
+    parser.add_argument(
+        "--stratify_by",
+        type=str,
+        help="Column to use for stratification",
+        default="none",
+        required=False,
+    )
+
+    parser.add_argument(
+        "--rf_config",
+        help="Random forest configuration. A JSON dict that will be passed to the "
+        "scikit-learn constructor for RandomForestRegressor.",
+        default="{}",
+    )
+
+    parser.add_argument(
+        "--max_tfidf_features",
+        help="Maximum number of words to consider for the TFIDF",
+        default=10,
+        type=int
+    )
+
+    parser.add_argument(
+        "--output_artifact",
+        type=str,
+        help="Name for the output serialized model",
+        required=True,
+    )
 
     args = parser.parse_args()
+
     go(args)

@@ -1,0 +1,60 @@
+{
+    "os": "macOS-11.7.10-x86_64-i386-64bit",
+    "python": "3.10.15",
+    "heartbeatAt": "2024-11-01T17:47:33.608383",
+    "startedAt": "2024-11-01T17:47:32.740356",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--trainval_artifact",
+        "trainval_data.csv:latest",
+        "--val_size",
+        "0.2",
+        "--random_seed",
+        "42",
+        "--stratify_by",
+        "neighbourhood_group",
+        "--rf_config",
+        "../../outputs/2024-11-01/13-41-00/rf_config.json",
+        "--max_tfidf_features",
+        "5",
+        "--output_artifact",
+        "random_forest_export"
+    ],
+    "state": "running",
+    "program": "/Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "src/train_random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/jlanc42/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "b8208e21686f37da24ab2e022ef4c93d2988be78"
+    },
+    "email": null,
+    "root": "/Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter",
+    "host": "Johns-MacBook-Air.local",
+    "username": "johnlancaster",
+    "executable": "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 1400,
+        "min": 1400,
+        "max": 1400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1400,
+            "min": 1400,
+            "max": 1400
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 112.80464935302734,
+            "used": 14.275474548339844
+        }
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

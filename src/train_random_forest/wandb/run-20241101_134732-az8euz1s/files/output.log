@@ -1,0 +1,59 @@
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Unable to fetch artifact with name john-lanc-western-governors-university/Project-Build-an-ML-Pipeline-Starter-src_train_random_forest/trainval_data.csv:latest
+Traceback (most recent call last):
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/apis/public.py", line 1040, in artifact
+    artifact = wandb.Artifact._from_name(
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 256, in _from_name
+    raise ValueError(
+ValueError: Unable to fetch artifact with name john-lanc-western-governors-university/Project-Build-an-ML-Pipeline-Starter-src_train_random_forest/trainval_data.csv:latest
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 271, in <module>
+    go(args)
+  File "/Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 51, in go
+    trainval_local_path = run.use_artifact(args.trainval_artifact).file()
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 371, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 361, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2769, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/apis/public.py", line 1040, in artifact
+    artifact = wandb.Artifact._from_name(
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 256, in _from_name
+    raise ValueError(
+wandb.errors.CommError: Unable to fetch artifact with name john-lanc-western-governors-university/Project-Build-an-ML-Pipeline-Starter-src_train_random_forest/trainval_data.csv:latest
+Traceback (most recent call last):
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/apis/public.py", line 1040, in artifact
+    artifact = wandb.Artifact._from_name(
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 256, in _from_name
+    raise ValueError(
+ValueError: Unable to fetch artifact with name john-lanc-western-governors-university/Project-Build-an-ML-Pipeline-Starter-src_train_random_forest/trainval_data.csv:latest
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 271, in <module>
+    go(args)
+  File "/Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 51, in go
+    trainval_local_path = run.use_artifact(args.trainval_artifact).file()
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 371, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 361, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2769, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/apis/public.py", line 1040, in artifact
+    artifact = wandb.Artifact._from_name(
+  File "/Users/johnlancaster/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 256, in _from_name
+    raise ValueError(
+wandb.errors.CommError: Unable to fetch artifact with name john-lanc-western-governors-university/Project-Build-an-ML-Pipeline-Starter-src_train_random_forest/trainval_data.csv:latest

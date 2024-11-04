@@ -13,3 +13,25 @@ src/eda/.ipynb_checkpoints/
 #src/basic_cleaning/wandb/latest-run
 
 #multirun/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore mlruns directory
+mlruns/
+
+# Ignore outputs directory
+outputs/
+
+# Ignore multirun directory
+multirun/
+
+# Ignore wandb logs and artifacts
+src/**/wandb/
+src/**/artifacts/
+
+# Ignore Jupyter notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Ignore other temporary files
+

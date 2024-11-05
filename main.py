@@ -18,7 +18,6 @@ _steps = [
     "test_regression_model"
 ]
 
-
 # This automatically reads in the configuration
 @hydra.main(config_name='config')
 def go(config: DictConfig):
@@ -117,11 +116,9 @@ def go(config: DictConfig):
                 "main",
                 parameters={
                     "mlflow_model": "random_forest_export:prod",
-                    "test_artifact": "test_data.csv:latest",
-                    "output_artifact": "test_results"
+                    "test_dataset": "test_data.csv:latest",
                 },
             )
-
 
 if __name__ == "__main__":
     go()

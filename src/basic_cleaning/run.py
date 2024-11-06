@@ -21,6 +21,7 @@ def go(args):
         job_type="basic_cleaning" 
     )
     run.config.update(args)
+    
     # Download input artifact. This will also log that this script is using this
     # particular version of the artifact
     logger.info('Fetching raw dataset.')
@@ -32,8 +33,10 @@ def go(args):
     idx = df['price'].between(float(args.min_price), float(args.max_price))
     df = df[idx].copy()
     df['last_review'] = pd.to_datetime(df['last_review'])
-    # TODO: add code to fix the issue happened when testing the model
     
+    # Filter out rows not in the proper geographic boundaries
+    idx = df['longitude'].between(-74.25, -73.50) & df['latitude'].between(40.5, 41.2)
+    df = df[idx].copy()
 
     # Save the cleaned data
     logger.info('Saving and exporting cleaned data.')
@@ -92,7 +95,6 @@ if __name__ == "__main__":
         help = "Maximum price to filter the dataset",
         required = True
     )
-
 
     args = parser.parse_args()
 

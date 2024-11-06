@@ -1,0 +1,50 @@
+{
+    "os": "macOS-11.7.10-x86_64-i386-64bit",
+    "python": "3.9.20",
+    "heartbeatAt": "2024-11-05T20:40:50.682746",
+    "startedAt": "2024-11-05T20:40:50.017426",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--mlflow_model",
+        "random_forest_export:prod",
+        "--test_dataset",
+        "test_data.csv:latest"
+    ],
+    "state": "running",
+    "program": "/Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter/components/test_regression_model/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "components/test_regression_model/run.py",
+    "git": {
+        "remote": "https://github.com/jlanc42/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "354ba3b7d2b40f86d2bcf1e9fc95ea0881428485"
+    },
+    "email": null,
+    "root": "/Users/johnlancaster/Project-Build-an-ML-Pipeline-Starter",
+    "host": "Johns-MacBook-Air.local",
+    "username": "johnlancaster",
+    "executable": "/Users/johnlancaster/opt/anaconda3/envs/mlflow-a463569e8a529ef50293a5a3c62b2adcc795f814/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 1400,
+        "min": 1400,
+        "max": 1400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1400,
+            "min": 1400,
+            "max": 1400
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 112.80464935302734,
+            "used": 14.275474548339844
+        }
+    },
+    "memory": {
+        "total": 8.0
+    }
+}
